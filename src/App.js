@@ -30,7 +30,7 @@ export default function App() {
         </h2>
         <h2>
           pMuo = Menor valor de <span className="SPAN">pdet</span> obtido após
-          se indicar <span className="SPAN">“start voiding”</span>
+          iniciar o <span className="SPAN">“start voiding”</span>
         </h2>
         <h2>pMin = Valor minimo em que gráfico?</h2>
         <h2>
