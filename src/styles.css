@@ -16,7 +16,7 @@
   height: 25px;
   width: 2px;
   color: red;
-  background-color: red;
+  background-color: rgb(110, 110, 110);
   margin-left: 10px;
   margin-right: 10px;
 }
@@ -25,7 +25,16 @@
   height: 2px;
   width: 100%;
   color: red;
-  background-color: red;
+  background-color: rgb(110, 110, 110);
+}
+
+.HrStyle3 {
+  height: 175px;
+  width: 2px;
+  color: red;
+  background-color: rgb(110, 110, 110);
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 .H2 {
