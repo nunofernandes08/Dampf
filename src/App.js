@@ -7,11 +7,11 @@ export default function App() {
   const pMin = 0;
   const pDet = 0;
 
+  //y = m * x + b
   //m = (Qmax – QatPmin)/(PdetatQmax – Pmin)
   const m = (qMax - qPmin) / (pdetToQmax - pMin);
   //b = Qmax – m * PdetatQmax
   const b = qMax - m * pdetToQmax;
-  //y = m * x + b
   //Q = m * Pdet + b
   const Q = m * pDet + b;
   //Equação C (Q = 20 – 0.2Pdet)
@@ -39,16 +39,19 @@ export default function App() {
             qMax = Valor mais alto do <span className="SPAN">Qura</span>
           </h2>
           <h2>
-            pdetToQmax = Valor do <span className="SPAN">pdet</span> quando
-            atinge o valor do <span className="SPAN">qMax</span> Mas em que
-            "secção"? Cystometry? Voiding phase?
+            pdetToQmax = Valor do <span className="SPAN">Pdet</span> quando
+            atinge o valor do <span className="SPAN">qMax</span>
+            Voiding phase
           </h2>
-          <h2>pMin = Valor minimo em que gráfico?</h2>
           <h2>
-            qPmin = Valor do <span className="SPAN">Qura</span> (?) quando
-            atinge o <span className="SPAN">pMin</span>?
+            pMin = Valor minimo <span className="SPAN">Pdet</span> na voinding
+            phase
           </h2>
-          <h2>pDet = ??</h2>
+          <h2>
+            qPmin = Valor do <span className="SPAN">Qura</span> quando atinge o{" "}
+            <span className="SPAN">pMin</span>
+          </h2>
+          <h2>pDet = x</h2>
         </div>
 
         <hr className="HrStyle2" />
