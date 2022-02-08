@@ -1,8 +1,8 @@
 import "./styles.css";
 
 export default function App() {
-  const qMax = 9;
-  const pdetToQmax = 20;
+  const qMax = 20;
+  const pdetToQmax = 8;
   const qPmin = 0;
   const pMin = 0;
   const pDet = 0;
@@ -149,6 +149,14 @@ export default function App() {
 
         <h2 className="H2" style={{ marginBottom: 20, color: "green" }}>
           Interseção das retas
+        </h2>
+
+        <h2 className="H2" style={{ marginBottom: 20, color: "green" }}>
+          Equações
+        </h2>
+
+        <h2 className="H2" style={{ marginBottom: 20 }}>
+          Q = {m}Pdet + {b} _____________ C = 20 - 0.2Pdet
         </h2>
 
         <div className="App2">
